@@ -19,8 +19,8 @@ namespace PizzaTest
 
         static void Main(string[] args)
         {
-            // Web: "http://files.olo.com/pizzas.json"
-            // File: Environment.CurrentDirectory + "\\Pizzas.json"
+            // Read from Web: "http://files.olo.com/pizzas.json"
+            // Read from File: Environment.CurrentDirectory + "\\Pizzas.json"
 #if DEBUG
             // SO MUCH FASTER for debugging cycles.   
             ProcessOrders pizzaOrders = new ProcessOrders( FileName );
